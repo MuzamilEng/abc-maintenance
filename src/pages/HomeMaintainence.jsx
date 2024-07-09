@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const HomeMaintainence = () => {
   return (
@@ -219,9 +220,9 @@ const HomeMaintainence = () => {
                             Home Plan introductory offer in your area, contact
                             your local HomeSteady representative&nbsp;
                           </span>
-                          <a href="../contact/index.html" rel="noopener">
+                          <Link to="../contact/index.html" rel="noopener">
                             here!
-                          </a>
+                          </Link>
                         </p>
                       </div>
                     </div>
@@ -263,10 +264,10 @@ const HomeMaintainence = () => {
                           className="text-align-center"
                           style={{ textAlign: "center" }}
                         >
-                          <a href="../contact/index.html" type="page">
+                          <Link to="../contact/index.html" type="page">
                             Contact Us Today For More Information On The Steady
                             Home Plan
-                          </a>
+                          </Link>
                         </h3>
                       </div>
                     </div>
@@ -283,7 +284,7 @@ const HomeMaintainence = () => {
         <link
           rel="stylesheet"
           id="assets_css-css"
-          href="../wp-content/themes/cybermark/assets/css/assets380f.css?ver=6.5.4"
+          to="../wp-content/themes/cybermark/assets/css/assets380f.css?ver=6.5.4"
           type="text/css"
           media="all"
         />

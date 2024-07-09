@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Franchise = () => {
   const servicesExamples = [
@@ -76,7 +77,7 @@ const Franchise = () => {
                         </div>
                       ))}
                       <p className="text-align-left lg:text-[1vw] lg:font-medium ">
-                        For more examples of our work and to see how we can help with your next project, get in touch with us at <a href="mailto:abcmaintenance@gmail.com">abcmaintenance@gmail.com</a>. Whether you need a minor repair or a major renovation, we are here to provide the expert service you deserve.
+                        For more examples of our work and to see how we can help with your next project, get in touch with us at <Link to="mailto:abcmaintenance@gmail.com">abcmaintenance@gmail.com</Link>. Whether you need a minor repair or a major renovation, we are here to provide the expert service you deserve.
                       </p>
                     </div>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw]">
@@ -87,13 +88,13 @@ const Franchise = () => {
                         low, initial investment, this is your opportunity.
                       </p>
                       <div className="section__button text-left lg:mt-[2vw]">
-                        <a
+                        <Link
                           className="btn btn-primary"
-                          href="#lets-get-started"
+                          to="#lets-get-started"
                           target="_self"
                         >
                           LEARN MORE
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -244,13 +245,13 @@ const Franchise = () => {
                         startup and throughout business ownership.
                       </p>
                       <div className="section__button text-left lg:mt-[2vw]">
-                        <a
+                        <Link
                           className="btn btn-primary"
-                          href="#gform_3"
+                          to="#gform_3"
                           target="_self"
                         >
                           BECOME A HOMESTEADY FRANCHISEE
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -295,13 +296,13 @@ const Franchise = () => {
                         <li>Lead your team and drive your business</li>
                       </ul>
                       <div className="section__button text-left mt-[2vw]">
-                        <a
+                        <Link
                           className="btn btn-primary"
-                          href="#gform_3"
+                          to="/contact"
                           target="_self"
                         >
                           Contact Us
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -476,7 +477,7 @@ const Franchise = () => {
       <link
         rel="stylesheet"
         id="assets_css-css"
-        href="../wp-content/themes/cybermark/assets/css/assets380f.css?ver=6.5.4"
+        to="../wp-content/themes/cybermark/assets/css/assets380f.css?ver=6.5.4"
         type="text/css"
         media="all"
       />

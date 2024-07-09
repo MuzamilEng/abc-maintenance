@@ -15,12 +15,12 @@ const Header = () => {
           >
             <div className="site-branding col-lg-3 col-9">
               <div className="main-logo bg-[#344451] rounded-[0.7vw] w-[10vw] lg:w-[4vw]">
-                <a href="/" rel="home" className="bg-[#344451]">
+                <Link to="/" rel="home" className="bg-[#344451]">
                   <img
                     src="/img/logo2.png"
                     alt="header logo" className="h-[10vw] lg:h-[4vw]"
                   />
-                </a>
+                </Link>
               </div>
             </div>
             {/* .site-branding */}
@@ -85,55 +85,55 @@ const Header = () => {
                             id="menu-item-1003320"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003320"
                           >
-                            <a href="#">
+                            <Link to="#">
                               BATHROOM REPAIR
-                            </a>
+                            </Link>
                           </li>
                           <li
                             id="menu-item-1003321"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003321"
                           >
-                            <a href="#">DECK SERVICES</a>
+                            <Link to="#">DECK SERVICES</Link>
                           </li>
                           <li
                             id="menu-item-1003322"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003322"
                           >
-                            <a href="#">DOOR SERVICES</a>
+                            <Link to="#">DOOR SERVICES</Link>
                           </li>
                           <li
                             id="menu-item-1003323"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003323"
                           >
-                            <a href="#">
+                            <Link to="#">
                               DRYWALL REPAIR
-                            </a>
+                            </Link>
                           </li>
                           <li
                             id="menu-item-1003324"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003324"
                           >
-                            <a href="#">FENCE REPAIR</a>
+                            <Link to="#">FENCE REPAIR</Link>
                           </li>
                           <li
                             id="menu-item-1003325"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003325"
                           >
-                            <a href="#">
+                            <Link to="#">
                               FLOORING REPAIR
-                            </a>
+                            </Link>
                           </li>
                           <li
                             id="menu-item-1003326"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003326"
                           >
-                            <a href="#">TV MOUNTING</a>
+                            <Link to="#">TV MOUNTING</Link>
                           </li>
                           <li
                             id="menu-item-1003327"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003327"
                           >
-                            <a href="#">TILE REPAIR</a>
+                            <Link to="#">TILE REPAIR</Link>
                           </li>
                         </ul>
                       </li>

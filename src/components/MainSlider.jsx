@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "../components/Form";
+import { Link } from "react-router-dom";
 const MainSlider = () => {
   const services = [
     {
@@ -91,9 +92,9 @@ const MainSlider = () => {
             <p className="text-[3vw]">
               Complete our contact form today to schedule services.
             </p>
-            <a href="/contact" className="btn btn-secondary mr-0">
+            <Link to="/contact" className="btn btn-secondary mr-0">
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
         <div className="wrap" id="text_content">
@@ -277,62 +278,62 @@ const MainSlider = () => {
                       </h3>
                       <ul className="defaultList ">
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             Painting
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             Bathroom Repairs
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             Deck Services
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             Door Services
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             Drywall Repairs
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             Fence Repairs
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             Flooring Repairs
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             TV Mounting
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#" type="page">
+                          <Link to="#" type="page">
                             Tile Repairs
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                       <h3 className="text-align-left lg:text-[1vw] lg:mt-[1vw]">
                         BROWSE OUR COMPLETE LIST OF HOME SERVICES
                       </h3>
                       <div className="section__button text-left lg:mt-[1vw]">
-                        <a
+                        <Link
                           className="btn btn-primary" // commented link to a pdf file
-                          href="#" //https://irp.cdn-website.com/9922685c/files/uploaded/Service_Sheet_8.5x14_HomeSteady_Generic.pdf
+                          to="#" //https://irp.cdn-website.com/9922685c/files/uploaded/Service_Sheet_8.5x14_HomeSteady_Generic.pdf
                           target="_blank"
                         >
                           HOME REPAIR SERVICES
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -437,13 +438,13 @@ const MainSlider = () => {
                         </h3>
                       </div>
                       <div className="section__button text-left lg:mt-[1vw]">
-                        <a
+                        <Link
                           className="btn btn-primary"
-                          href="/about"
+                          to="/about"
                           target="_self"
                         >
                           STEADY HOME PLAN
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -541,13 +542,13 @@ const MainSlider = () => {
                         Select a Location to Contact your local HomeSteady.
                       </h3>
                       <p style={{ textAlign: "center" }}>
-                        <a
+                        <Link
                           className="m-font-size-14 font-size-18"
-                          href="mi-jackson/index.html"
+                          to="mi-jackson/index.html"
                           type="page"
                         >
                           Jackson, MI
-                        </a>
+                        </Link>
                       </p>
                       <p style={{ textAlign: "center" }}>
                         Or Complete Our Contact Form to Connect with your Local

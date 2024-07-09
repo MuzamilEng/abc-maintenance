@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const PaintingServices = () => {
   return (
@@ -49,13 +50,13 @@ const PaintingServices = () => {
                       </p>
                       <p className="font-medium text-[1vw]">
                         Let’s get started.&nbsp;
-                        <a
-                          href="../contact/index.html"
+                        <Link
+                          to="/contact"
                           className="text-blue-950"
                           type="page"
                         >
                           Contact HomeSteady
-                        </a>
+                        </Link>
                         &nbsp;today to schedule your painting or staining
                         project estimate!
                       </p>
