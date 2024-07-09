@@ -12,9 +12,9 @@ const Footer = () => {
                 id="footer-branding"
                 aria-label="footer_branding"
               >
-                <a href="index.html" rel="home">
+                <a href="/" rel="home">
                   <img
-                    src="wp-content/themes/franchise-corporate/assets/images/HomesSteady_Logo_White-300w.png"
+                    src="/img/logo2.png"
                     alt="HomeSteady"
                     width={250}
                     height={71}

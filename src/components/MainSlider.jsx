@@ -123,12 +123,12 @@ const MainSlider = () => {
                       <img
                         width={800}
                         height={534}
-                        src="wp-content/uploads/2022/08/home.jpg"
+                        src="/img/mainti5.jpg"
                         className="attachment-full size-full"
                         alt="Family Admires Front of Their Home"
                         decoding="async"
                         fetchpriority="high"
-                        srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-768x513.jpg 768w"
+                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-768x513.jpg 768w"
                         sizes="(max-width: 800px) 100vw, 800px"
                       />
                     </div>
@@ -191,7 +191,8 @@ const MainSlider = () => {
                       <div className="column">
                         <div className="column-img">
                           <img
-                            src="wp-content/uploads/2022/08/RW-4-3938083b-1-558w.jpg"
+                            // src="wp-content/uploads/2022/08/RW-4-3938083b-1-558w.jpg"
+                            src="/img/mainti6.jpg"
                             height={373}
                             width={560}
                             alt="Fixing Window Curtain ─ Ann Arbor, MI ─ HomeSteady"
@@ -203,7 +204,8 @@ const MainSlider = () => {
                       <div className="column">
                         <div className="column-img">
                           <img
-                            src="wp-content/uploads/2022/08/RW-3-6469f2f3-1-558w.jpg"
+                            // src="wp-content/uploads/2022/08/RW-3-6469f2f3-1-558w.jpg"
+                            src="/img/mainti7.jpg"
                             height={373}
                             width={560}
                             alt="Checking Electricity ─ Ann Arbor, MI ─ HomeSteady"
@@ -341,11 +343,12 @@ const MainSlider = () => {
                       <img
                         width={800}
                         height={534}
-                        src="wp-content/uploads/2022/08/home2.jpg"
+                        // src="wp-content/uploads/2022/08/home2.jpg"
+                        src="/img/mainti8.jpg"
                         className="attachment-full size-full"
                         alt="Home Front View"
                         decoding="async"
-                        srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2-768x513.jpg 768w"
+                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2-768x513.jpg 768w"
                         sizes="(max-width: 800px) 100vw, 800px"
                       />
                     </div>

@@ -14,11 +14,11 @@ const Header = () => {
             style={{ position: "relative" }}
           >
             <div className="site-branding col-lg-3 col-9">
-              <div className="main-logo">
-                <a href="index.html" rel="home">
+              <div className="main-logo bg-[#344451] rounded-[0.7vw] w-[10vw] lg:w-[4vw]">
+                <a href="/" rel="home" className="bg-[#344451]">
                   <img
-                    src="wp-content/uploads/2022/08/HomesSteady_Logo_Full-Color_RGB-264w.png"
-                    alt="header logo"
+                    src="/img/logo2.png"
+                    alt="header logo" className="h-[10vw] lg:h-[4vw]"
                   />
                 </a>
               </div>
@@ -113,13 +113,13 @@ const Header = () => {
                             id="menu-item-1003324"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003324"
                           >
-                            <a href="fence-repair/index.html">FENCE REPAIR</a>
+                            <a href="#">FENCE REPAIR</a>
                           </li>
                           <li
                             id="menu-item-1003325"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003325"
                           >
-                            <a href="flooring-repair/index.html">
+                            <a href="#">
                               FLOORING REPAIR
                             </a>
                           </li>
@@ -133,7 +133,7 @@ const Header = () => {
                             id="menu-item-1003327"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003327"
                           >
-                            <a href="tile-repair/index.html">TILE REPAIR</a>
+                            <a href="#">TILE REPAIR</a>
                           </li>
                         </ul>
                       </li>

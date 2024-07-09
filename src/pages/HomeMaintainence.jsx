@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const HomeMaintainence = () => {
   return (
@@ -165,11 +166,12 @@ const HomeMaintainence = () => {
                         <img
                           width={800}
                           height={533}
-                          src="../wp-content/uploads/2022/08/bathroom.jpg"
+                          // src="../wp-content/uploads/2022/08/bathroom.jpg"
+                          src="/img/mainti5.jpg"
                           className="attachment-full size-full"
                           alt="Bathroom"
                           decoding="async"
-                          srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom-768x512.jpg 768w"
+                          // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom-768x512.jpg 768w"
                           sizes="(max-width: 800px) 100vw, 800px"
                         />
                       </div>
@@ -230,11 +232,12 @@ const HomeMaintainence = () => {
                         <img
                           width={800}
                           height={534}
-                          src="../wp-content/uploads/2022/08/home-1.jpg"
+                          // src="../wp-content/uploads/2022/08/home-1.jpg"
+                          src="/img/mainti8.jpg"
                           className="attachment-full size-full"
                           alt="Family Plays in front of home"
                           decoding="async"
-                          srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1-768x513.jpg 768w"
+                          // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1-768x513.jpg 768w"
                           sizes="(max-width: 800px) 100vw, 800px"
                         />
                       </div>
@@ -275,65 +278,7 @@ const HomeMaintainence = () => {
           {/* .wrap */}
         </div>
         {/* .site-content */}
-        <footer className="site-footer" role="contentinfo">
-          <div className="container">
-            <div className="row">
-              <div className="text-center">
-                <div
-                  className="footer-branding"
-                  id="footer-branding"
-                  aria-label="footer_branding"
-                >
-                  <a href="../index.html" rel="home">
-                    <img
-                      src="../wp-content/themes/franchise-corporate/assets/images/HomesSteady_Logo_White-300w.png"
-                      alt="HomeSteady"
-                      width={250}
-                      height={71}
-                    />
-                  </a>
-                </div>
-              </div>
-              <div className="">
-                <div className="footer-content text-center">
-                  <p id="footer-large-text">
-                    We maintain peace of mind, one home at a time{" "}
-                  </p>
-                  <p>
-                    Each HomeSteady location is independently owned and operated
-                    and services may vary by location.
-                  </p>
-                  <p>
-                    Some services subject to state or local licensing and may
-                    not be available at all locations. Please contact your local
-                    HomeSteady for availability.
-                  </p>
-                  <p className="footer-max-width">
-                    Content, including images, displayed on this website is
-                    protected by copyright laws. Downloading, republication,
-                    retransmission or reproduction of content on this website is
-                    strictly prohibited.{" "}
-                    <a href="../terms-and-conditions/index.html">
-                      Terms of Use
-                    </a>{" "}
-                    | <a href="../privacy-policy/index.html">Privacy Policy</a>{" "}
-                    | <a href="../ada-compliance/index.html">ADA Compliance</a>
-                  </p>
-                  <a
-                    href="https://www.cybermark.com/"
-                    rel="noreferrer"
-                    target="_blank"
-                    aria-describedby="new-window-0"
-                    className="cybermark"
-                    style={{ textDecoration: "none", fontSize: 12 }}
-                  >
-                    Built By CyberMark
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
         {/* .site-footer */}
         <link
           rel="stylesheet"

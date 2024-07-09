@@ -45,7 +45,7 @@ const Franchise = () => {
             className="page__banner"
             style={{
               backgroundImage:
-                'url("../wp-content/uploads/2022/09/Franchise_HeroOption1-scaled.jpg")',
+                'url("/img/mainti6.jpg")',
             }}
           >
             <div className="container">
@@ -194,12 +194,13 @@ const Franchise = () => {
                       <img
                         width={2560}
                         height={1707}
-                        src="../wp-content/uploads/2022/09/Franchise_BeTheBossOf-scaled.jpg"
+                        // src="../wp-content/uploads/2022/09/Franchise_BeTheBossOf-scaled.jpg"
+                        src="/img/mainti5.jpg"
                         className="attachment-full size-full"
                         alt="Handyman installs cabinets"
                         decoding="async"
                         fetchpriority="high"
-                        srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-scaled.jpg 2560w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-1024x683.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-768x512.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-1536x1024.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-2048x1365.jpg 2048w"
+                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-scaled.jpg 2560w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-1024x683.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-768x512.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-1536x1024.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-2048x1365.jpg 2048w"
                         sizes="(max-width: 2560px) 100vw, 2560px"
                       />
                     </div>
@@ -311,11 +312,12 @@ const Franchise = () => {
                       <img
                         width={2386}
                         height={1686}
-                        src="../wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner.jpg"
+                        // src="../wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner.jpg"
+                        src="/img/mainti3.jpg"
                         className="attachment-full size-full"
                         alt="HomeSteady handyman talks with client"
                         decoding="async"
-                        srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner.jpg 2386w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-300x212.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1024x724.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-768x543.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1536x1085.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-2048x1447.jpg 2048w"
+                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner.jpg 2386w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-300x212.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1024x724.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-768x543.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1536x1085.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-2048x1447.jpg 2048w"
                         sizes="(max-width: 2386px) 100vw, 2386px"
                       />
                     </div>
@@ -442,11 +444,12 @@ const Franchise = () => {
                       <img
                         width={2560}
                         height={1579}
-                        src="../wp-content/uploads/2022/09/Franchise_LetsGetStarted-scaled.jpg"
+                        // src="../wp-content/uploads/2022/09/Franchise_LetsGetStarted-scaled.jpg"
+                        src="/img/mainti1.jpg"
                         className="attachment-full size-full"
                         alt="HomeSteady Van"
                         decoding="async"
-                        srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-scaled.jpg 2560w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-300x185.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1024x632.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-768x474.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1536x947.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-2048x1263.jpg 2048w"
+                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-scaled.jpg 2560w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-300x185.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1024x632.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-768x474.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1536x947.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-2048x1263.jpg 2048w"
                         sizes="(max-width: 2560px) 100vw, 2560px"
                       />
                     </div>
