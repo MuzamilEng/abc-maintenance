@@ -169,29 +169,29 @@ const Header = () => {
                   <div className="menu-main-menu-container">
                     <ul className="menulinks">
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1003283 current_page_item menu-item-1003311">
-                        <a href="/" aria-current="page" onClick={() => setShowSidebar(false)}>
+                        <Link to="/" aria-current="page" onClick={() => setShowSidebar(false)}>
                           Welcome
-                        </a>
+                        </Link>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003312">
-                        <a href="/about" onClick={() => setShowSidebar(false)}>
+                        <Link to="/about" onClick={() => setShowSidebar(false)}>
                           About Us
-                        </a>
+                        </Link>
                       </li>
                       
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003313">
-                        <a href="/portfolio">Portfolio</a>
+                        <Link to="/portfolio">Portfolio</Link>
                       </li>
                       
                     </ul>
                   </div>{" "}
                   <div className="mobile-location-search">
-                    <a
-                      href="/contact"
+                    <Link
+                      to="/contact"
                       className="btn btn-primary mr-0"
                     >
                       Contact
-                    </a>
+                    </Link>
                   </div>
                 </div>}
               </div>

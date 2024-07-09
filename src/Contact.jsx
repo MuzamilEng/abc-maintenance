@@ -6,21 +6,13 @@ const Contact = () => {
   return (
     <>
       <>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          &lt;iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-5QRLS6Q";
-          height="0" width="0"
-          style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
        <Header />
         {/* .header */}
         <div id="content" className="main-content" role="main">
           <div className="wrap">
             <section
               className="content_1 section__wrapper "
-              id="contact-banner"
+              id="contact-anner"
             >
               <div className="container">
                 <div className="row ">
@@ -30,14 +22,14 @@ const Contact = () => {
                       aria-labelledby="intro"
                       className="section__container"
                     >
-                      <div className="section__content ">
+                      {/* <div className="section__content mt-[4vw]">
                         <h2 className="text-align-center ">CONTACT US</h2>
                         <h3 className="text-align-center">
                           Schedule an appointment online today to discuss your
                           projects with your local HomeSteady.
                         </h3>
                         <hr className="contact-hr" />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
