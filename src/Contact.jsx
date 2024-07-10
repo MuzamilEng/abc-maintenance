@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -76,12 +77,7 @@ const Contact = () => {
                             id="gform_wrapper_2"
                           >
                             <form
-                              method="post"
-                              encType="multipart/form-data"
-                              id="gform_2"
-                              action="https://www.homesteadyservices.com/contact/"
-                              data-formid={2}
-                              noValidate=""
+                             
                             >
                               <div className="gform-body gform_body">
                                 <div
@@ -834,60 +830,9 @@ const Contact = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div className="gform_footer top_label">
-                                {" "}
-                                <input
-                                  type="submit"
-                                  id="gform_submit_button_2"
-                                  className="gform_button button btn btn-primary"
-                                  defaultValue="Submit"
-                                  onclick='if(window["gf_submitting_2"]){return false;}  if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  '
-                                  onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_2"]){return false;} if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  jQuery("#gform_2").trigger("submit",[true]); }'
-                                />
-                                <input
-                                  type="hidden"
-                                  className="gform_hidden"
-                                  name="is_submit_2"
-                                  defaultValue={1}
-                                />
-                                <input
-                                  type="hidden"
-                                  className="gform_hidden"
-                                  name="gform_submit"
-                                  defaultValue={2}
-                                />
-                                <input
-                                  type="hidden"
-                                  className="gform_hidden"
-                                  name="gform_unique_id"
-                                  defaultValue=""
-                                />
-                                <input
-                                  type="hidden"
-                                  className="gform_hidden"
-                                  name="state_2"
-                                  defaultValue="WyJ7XCIxNVwiOltcImFmZWQyMWYyOWU5NzQxYzhjZWMwYjk5MWUyMjg0YzkyXCIsXCJkYWJkYTU3NjdlM2ExMjFkODkxNTFhZTNkYmE5ODQxM1wiXSxcIjE2XCI6W1wiMzMxYTg3NjJhZTgzMGM2MDcwMmEyZTFiOGQ4N2FlYjFcIixcIjk0NDhkOWY4YzlkNjk0ZTIyZTYwODllMjIxNWU3OTJlXCJdLFwiMTdcIjpbXCIzMzFhODc2MmFlODMwYzYwNzAyYTJlMWI4ZDg3YWViMVwiLFwiYzBhYmI3NjVlYTA5Zjg5ZWI5ZmIwNDk0M2MwZWRhY2FcIl19IiwiNDlkNDdhYWM0ZjczY2Q4ODQ3MDVmMDc2OWM2NzIzNmQiXQ=="
-                                />
-                                <input
-                                  type="hidden"
-                                  className="gform_hidden"
-                                  name="gform_target_page_number_2"
-                                  id="gform_target_page_number_2"
-                                  defaultValue={0}
-                                />
-                                <input
-                                  type="hidden"
-                                  className="gform_hidden"
-                                  name="gform_source_page_number_2"
-                                  id="gform_source_page_number_2"
-                                  defaultValue={1}
-                                />
-                                <input
-                                  type="hidden"
-                                  name="gform_field_values"
-                                  defaultValue=""
-                                />
-                              </div>
+                              <Link to="/">
+                              <button className=" mt-[2vw] button btn btn-primary">Submit</button>
+                              </Link>
                             </form>
                           </div>
                         </div>
