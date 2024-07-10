@@ -477,7 +477,7 @@ const Form = () => {
                           data-js-reload="field_2_16"
                         >
                           <legend className="gfield_label gform-field-label">
-                            Is this your first experience with HomeSteady?
+                            Is this your first experience with ABC ?
                           </legend>
                           <div className="ginput_container ginput_container_radio">
                             <div className="gfield_radio" id="input_2_16">
@@ -524,7 +524,7 @@ const Form = () => {
                           data-js-reload="field_2_17"
                         >
                           <legend className="gfield_label gform-field-label">
-                            Are you interested in our Steady Home Plan?
+                            Are you interested in our ABC  Plan?
                           </legend>
                           <div className="ginput_container ginput_container_radio">
                             <div className="gfield_radio" id="input_2_17">
@@ -583,14 +583,14 @@ const Form = () => {
                             className="gfield_label gform-field-label"
                             htmlFor="input_2_18"
                           >
-                            How can HomeSteady help you?
+                            How can ABC  help you?
                           </label>
                           <div className="ginput_container ginput_container_textarea">
                             <textarea
                               name="input_18"
                               id="input_2_18"
                               className="textarea small"
-                              placeholder="How can HomeSteady help you?"
+                              placeholder="How can ABC  help you?"
                               aria-invalid="false"
                               rows={10}
                               cols={50}

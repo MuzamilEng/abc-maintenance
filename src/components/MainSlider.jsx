@@ -165,7 +165,7 @@ const MainSlider = () => {
                         OUR SERVICE GUARANTEE
                       </h2>
                       <p className="text-align-left lg:text-[1vw] font-medium lg:mt-[1vw]">
-                        HomeSteady stands behind our technicians and the
+                        ABC  stands behind our technicians and the
                         services they perform by providing a one-year warranty
                         on all our home services. If our home maintenance
                         solutions fall short of your expectations, let us know
@@ -196,7 +196,7 @@ const MainSlider = () => {
                             src="/img/mainti6.jpg"
                             height={373}
                             width={560}
-                            alt="Fixing Window Curtain ─ Ann Arbor, MI ─ HomeSteady"
+                            alt="Fixing Window Curtain ─ Ann Arbor, MI ─ ABC "
                           />
                         </div>
                       </div>
@@ -209,7 +209,7 @@ const MainSlider = () => {
                             src="/img/mainti7.jpg"
                             height={373}
                             width={560}
-                            alt="Checking Electricity ─ Ann Arbor, MI ─ HomeSteady"
+                            alt="Checking Electricity ─ Ann Arbor, MI ─ ABC "
                           />
                         </div>
                       </div>
@@ -373,7 +373,7 @@ const MainSlider = () => {
                         className="m-text-align-left text-align-center lg:text-[1.5vw] "
                         style={{ textAlign: "center" }}
                       >
-                        STEADY HOME MAINTENANCE PLANS
+                        ABC  MAINTENANCE PLANS
                       </h2>
                       <p>&nbsp;</p>
                       <h3 className="text-align-center lg:text-[1.5vw]">
@@ -402,11 +402,11 @@ const MainSlider = () => {
                   >
                     <div className="section__content ">
                       <h3 className="text-align-left lg:text-[1.5vw]">
-                        WHY CHOOSE THE STEADY HOME PLAN?
+                        WHY CHOOSE THE ABC  PLAN?
                       </h3>
                       <p className="text-align-left lg:text-[1vw] ">
-                        The Steady Home Plan provides homeowners with a
-                        dependable home maintenance solution. Steady Home Plan
+                        The ABC  Plan provides homeowners with a
+                        dependable home maintenance solution. ABC  Plan
                         members avoid the difficulty of finding a reliable
                         handyman to tackle home repairs as they arise. Members
                         enjoy many perks, including:
@@ -433,7 +433,7 @@ const MainSlider = () => {
                       >
                         <h3 className="text-align-left lg:text-[1.5vw] lg:mt-[1vw]">
                           <span className="">
-                            LEARN MORE ABOUT THE STEADY HOME PLAN
+                            LEARN MORE ABOUT THE ABC  PLAN
                           </span>
                         </h3>
                       </div>
@@ -443,7 +443,7 @@ const MainSlider = () => {
                           to="/about"
                           target="_self"
                         >
-                          STEADY HOME PLAN
+                          ABC  PLAN
                         </Link>
                       </div>
                     </div>
@@ -479,7 +479,7 @@ const MainSlider = () => {
                       <h3 style={{ textAlign: "center" }}>Customer Review:</h3>
                       <p style={{ textAlign: "center" }}>
                         <strong>
-                          “I have enrolled in the Homesteady maintenance plan.
+                          “I have enrolled in the ABC  maintenance plan.
                           Last week was my first home safety check visit from
                           Dustin. Dustin inspected everything such as
                           electrical, plumbing, furnace, etc. to ensure good
@@ -533,13 +533,13 @@ const MainSlider = () => {
                         SCHEDULE AN APPOINTMENT ONLINE TODAY TO DISCUSS YOUR
                         PROJECTS WITH
                         <br />
-                        YOUR LOCAL HANDYMAN, HOMESTEADY.
+                        YOUR LOCAL HANDYMAN, ABC .
                       </h2>
                       <h3
                         className="text-align-center"
                         style={{ textAlign: "center" }}
                       >
-                        Select a Location to Contact your local HomeSteady.
+                        Select a Location to Contact your local ABC .
                       </h3>
                       <p style={{ textAlign: "center" }}>
                         <Link
@@ -552,7 +552,7 @@ const MainSlider = () => {
                       </p>
                       <p style={{ textAlign: "center" }}>
                         Or Complete Our Contact Form to Connect with your Local
-                        HomeSteady Technicians!
+                        ABC  Technicians!
                       </p>
                     </div>
                   </div>

@@ -26,7 +26,7 @@ const Contact = () => {
                         <h2 className="text-align-center ">CONTACT US</h2>
                         <h3 className="text-align-center">
                           Schedule an appointment online today to discuss your
-                          projects with your local HomeSteady.
+                          projects with your local ABC .
                         </h3>
                         <hr className="contact-hr" />
                       </div> */}
@@ -45,7 +45,7 @@ const Contact = () => {
                           className="text-align-center"
                           style={{ textAlign: "center" }}
                         >
-                          Select a Location to Contact your local HomeSteady.
+                          Select a Location to Contact your local ABC .
                         </h2>
                         <p style={{ textAlign: "center" }}>
                           <a
@@ -58,7 +58,7 @@ const Contact = () => {
                         </p>
                         <h2 style={{ textAlign: "center" }}>
                           Or Complete Our Contact Form to Connect with your
-                          Local HomeSteady Technicians!
+                          Local ABC  Technicians!
                         </h2>
                       </div>
                     </div>
@@ -557,7 +557,7 @@ const Contact = () => {
                                   >
                                     <legend className="gfield_label gform-field-label">
                                       Is this your first experience with
-                                      HomeSteady?
+                                      ABC ?
                                     </legend>
                                     <div className="ginput_container ginput_container_radio">
                                       <div
@@ -607,7 +607,7 @@ const Contact = () => {
                                     data-js-reload="field_2_17"
                                   >
                                     <legend className="gfield_label gform-field-label">
-                                      Are you interested in our Steady Home
+                                      Are you interested in our ABC 
                                       Plan?
                                     </legend>
                                     <div className="ginput_container ginput_container_radio">
@@ -670,14 +670,14 @@ const Contact = () => {
                                       className="gfield_label gform-field-label"
                                       htmlFor="input_2_18"
                                     >
-                                      How can HomeSteady help you?
+                                      How can ABC  help you?
                                     </label>
                                     <div className="ginput_container ginput_container_textarea">
                                       <textarea
                                         name="input_18"
                                         id="input_2_18"
                                         className="textarea small"
-                                        placeholder="How can HomeSteady help you?"
+                                        placeholder="How can ABC  help you?"
                                         aria-invalid="false"
                                         rows={10}
                                         cols={50}

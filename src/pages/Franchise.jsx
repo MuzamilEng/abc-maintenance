@@ -81,7 +81,7 @@ const Franchise = () => {
                       </p>
                     </div>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw]">
-                        HomeSteady is the only franchise of its kind in the
+                        ABC  is the only franchise of its kind in the
                         growing home improvement and repair industry. If you
                         have a passion for home improvements and you are looking
                         to own a scalable business with a short startup time and
@@ -113,22 +113,22 @@ const Franchise = () => {
                   >
                     <div className="section__content lg:mt-[4vw]">
                       <h3 className="lg:text-[1.5vw]">
-                        <strong>Why HomeSteady?</strong>
+                        <strong>Why ABC ?</strong>
                       </h3>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
                         Today’s homeowners are so busy juggling family and
                         careers, home maintenance often goes unmanaged. When
                         home repairs get pushed aside, minor issues can become
                         more expensive problems. HomeSteady’s solution is the
-                        Steady Home Membership Plan.
+                        ABC  Membership Plan.
                       </p>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw]">
-                        The Steady Home Plan was created to provide homeowners
+                        The ABC  Plan was created to provide homeowners
                         with a dependable solution to home maintenance and
                         repairs while saving them both time and money.
                       </p>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
-                        For a monthly membership fee, Steady Home Plan members
+                        For a monthly membership fee, ABC  Plan members
                         receive priority access to HomeSteady’s experienced and
                         insured home technicians and a monthly block of service
                         hours to be used towards HomeSteady’s core maintenance
@@ -139,7 +139,7 @@ const Franchise = () => {
                         home repairman!
                       </p>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
-                        HomeSteady is the only home repair franchise of its kind
+                        ABC  is the only home repair franchise of its kind
                         that offers the benefits of a membership model in the
                         home improvement space. Membership creates repeat
                         business opportunities to get “back in the home” and win
@@ -225,7 +225,7 @@ const Franchise = () => {
                       </h3>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
                         With a unique business model that differentiates us from
-                        our competitors, HomeSteady is poised to disrupt the
+                        our competitors, ABC  is poised to disrupt the
                         home services sector.
                       </p>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
@@ -250,7 +250,7 @@ const Franchise = () => {
                           to="#gform_3"
                           target="_self"
                         >
-                          BECOME A HOMESTEADY FRANCHISEE
+                          BECOME A ABC  FRANCHISEE
                         </Link>
                       </div>
                     </div>
@@ -273,9 +273,9 @@ const Franchise = () => {
                         Your Role as An Owner
                       </h3>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
-                        As a HomeSteady business owner, you are <em>NOT</em> the
+                        As a ABC  business owner, you are <em>NOT</em> the
                         technician. Your role is to hire technicians to perform
-                        HomeSteady repair and maintenance services.
+                        ABC  repair and maintenance services.
                       </p>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
                         As the business owner, you will:
@@ -316,7 +316,7 @@ const Franchise = () => {
                         // src="../wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner.jpg"
                         src="/img/mainti3.jpg"
                         className="attachment-full size-full"
-                        alt="HomeSteady handyman talks with client"
+                        alt="ABC  handyman talks with client"
                         decoding="async"
                         // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner.jpg 2386w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-300x212.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1024x724.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-768x543.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1536x1085.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-2048x1447.jpg 2048w"
                         sizes="(max-width: 2386px) 100vw, 2386px"
@@ -338,11 +338,11 @@ const Franchise = () => {
                   >
                     <div className="section__content ">
                       <h3 className="lg:text-[1.5vw] lg:mt-[1vw] lg:font-bold">
-                        Is HomeSteady the Right Fit for You?
+                        Is ABC  the Right Fit for You?
                       </h3>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
                         You do not need a background in home services or
-                        construction to be a successful HomeSteady business
+                        construction to be a successful ABC  business
                         owner. We are looking for individuals who are passionate
                         about entrepreneurship and the following characteristics
                         and experience:
@@ -356,7 +356,7 @@ const Franchise = () => {
                       </ul>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
                         If this sounds like you, then you may be the right fit
-                        for a HomeSteady franchise.
+                        for a ABC  franchise.
                       </p>
                     </div>
                   </div>
@@ -378,8 +378,8 @@ const Franchise = () => {
                         Available Territories
                       </h3>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
-                        HomeSteady is expanding. With franchise opportunities
-                        available across the United States, HomeSteady is
+                        ABC  is expanding. With franchise opportunities
+                        available across the United States, ABC  is
                         looking for driven people who want to be in business for
                         themselves, but not by themselves. If you have great
                         aptitude and a great attitude, and if you are ready to
@@ -425,7 +425,7 @@ const Franchise = () => {
                         Let’s Get Started
                       </h3>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
-                        If you are interested in opening your own HomeSteady and
+                        If you are interested in opening your own ABC  and
                         learning more about the next steps, please submit an
                         inquiry, and someone from our team will be in touch
                         soon.
@@ -448,7 +448,7 @@ const Franchise = () => {
                         // src="../wp-content/uploads/2022/09/Franchise_LetsGetStarted-scaled.jpg"
                         src="/img/mainti1.jpg"
                         className="attachment-full size-full"
-                        alt="HomeSteady Van"
+                        alt="ABC  Van"
                         decoding="async"
                         // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-scaled.jpg 2560w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-300x185.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1024x632.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-768x474.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1536x947.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-2048x1263.jpg 2048w"
                         sizes="(max-width: 2560px) 100vw, 2560px"
@@ -462,7 +462,7 @@ const Franchise = () => {
           {/* <section class="section__wrapper" id="franchise-map-form">
 	<div class="container">
 		<div class="row">
-      <h3>Open Your Own HomeSteady</h3>
+      <h3>Open Your Own ABC </h3>
 			
 			
 			<div class="col-12">

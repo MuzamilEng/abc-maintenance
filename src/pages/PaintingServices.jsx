@@ -32,7 +32,7 @@ const PaintingServices = () => {
                   >
                     <div className="section__content ">
                       <h1 className="text-[3vw] font-bold">
-                        PAINTING SERVICES FROM HOMESTEADY
+                        PAINTING SERVICES FROM ABC 
                       </h1>
                       <h2 className="font-bold text-[1.5vw]">
                         Interior and Exterior Painting to Bring New Life to Your
@@ -42,7 +42,7 @@ const PaintingServices = () => {
                         Nothing livens up your home inside and out like a fresh
                         coat of paint! Make your home reflect your unique taste
                         and personality by reimagining its color scheme and
-                        giving your space an entirely new feel. At HomeSteady,
+                        giving your space an entirely new feel. At ABC ,
                         we offer interior and exterior painting services that
                         bring your vision to life. Combined with our
                         professional deck staining services, homeowners can give
@@ -55,7 +55,7 @@ const PaintingServices = () => {
                           className="text-blue-950"
                           type="page"
                         >
-                          Contact HomeSteady
+                          Contact ABC 
                         </Link>
                         &nbsp;today to schedule your painting or staining
                         project estimate!
@@ -208,7 +208,7 @@ const PaintingServices = () => {
                         every project. From repainting your living room to
                         retouching the exterior paint before listing it for
                         sale, you’re just one appointment away from getting the
-                        job done. Contact HomeSteady today to request your
+                        job done. Contact ABC  today to request your
                         customized estimate.
                       </p>
                     </div>

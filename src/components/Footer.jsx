@@ -15,7 +15,7 @@ const Footer = () => {
                 <a href="/" rel="home">
                   <img
                     src="/img/logo2.png"
-                    alt="HomeSteady"
+                    alt="ABC "
                     width={250}
                     height={71}
                   />
@@ -28,25 +28,25 @@ const Footer = () => {
                   We maintain peace of mind, one home at a time{" "}
                 </p>
                 <p>
-                  Each HomeSteady location is independently owned and operated
+                  Each ABC  location is independently owned and operated
                   and services may vary by location.
                 </p>
                 <p>
                   Some services subject to state or local licensing and may not
                   be available at all locations. Please contact your local
-                  HomeSteady for availability.
+                  ABC  for availability.
                 </p>
                 <p className="footer-max-width">
                   Content, including images, displayed on this website is
                   protected by copyright laws. Downloading, republication,
                   retransmission or reproduction of content on this website is
                   strictly prohibited.{" "}
-                  <a href="terms-and-conditions/index.html">Terms of Use</a> |{" "}
-                  <a href="privacy-policy/index.html">Privacy Policy</a> |{" "}
-                  <a href="ada-compliance/index.html">ADA Compliance</a>
+                  <a href="#">Terms of Use</a> |{" "}
+                  <a href="#">Privacy Policy</a> |{" "}
+                  <a href="#">ADA Compliance</a>
                 </p>
                 <a
-                  href="https://www.cybermark.com/"
+                  href="#"
                   rel="noreferrer"
                   target="_blank"
                   aria-describedby="new-window-0"

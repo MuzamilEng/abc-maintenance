@@ -29,7 +29,7 @@ const HomeMaintainence = () => {
                       className="section__container"
                     >
                       <div className="section__content ">
-                        <h1>SIGN UP FOR A STEADY HOME MAINTENANCE PLAN</h1>
+                        <h1>SIGN UP FOR A ABC  MAINTENANCE PLAN</h1>
                         <h2>
                           Keep Your Home in Top Shape with Annual Inspections
                           and Discounts on Repairs
@@ -50,11 +50,11 @@ const HomeMaintainence = () => {
                       className="section__container"
                     >
                       <div className="section__content ">
-                        <h3>HOW IS THE STEADY HOME PLAN DIFFERENT?</h3>
+                        <h3>HOW IS THE ABC  PLAN DIFFERENT?</h3>
                         <p>
                           Today’s homeowners are so busy juggling family and
                           careers, home maintenance often goes unmanaged.
-                          HomeSteady provides a dependable approach to home
+                          ABC  provides a dependable approach to home
                           maintenance with the benefits of its membership
                           program. Our home protection plan provides a
                           trustworthy solution that gives you peace of mind when
@@ -72,7 +72,7 @@ const HomeMaintainence = () => {
                           height={800}
                           src="/img/mainti1.jpg"
                           className="attachment-full size-full"
-                          alt="Man Repairing Cabinet ─ Ann Arbor, MI ─ HomeSteady"
+                          alt="Man Repairing Cabinet ─ Ann Arbor, MI ─ ABC "
                           decoding="async"
                           fetchpriority="high"
                           // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-drill.jpg 533w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-drill-200x300.jpg 200w"
@@ -104,7 +104,7 @@ const HomeMaintainence = () => {
                           leave your worries behind.
                         </p>
                         <h3>
-                          WHY CHOOSE HOMESTEADY FOR HOME MAINTENANCE PLAN?
+                          WHY CHOOSE ABC  FOR HOME MAINTENANCE PLAN?
                         </h3>
                         <ul className="defaultList">
                           <li>Dependable and Hassle-Free Home Maintenance</li>
@@ -146,7 +146,7 @@ const HomeMaintainence = () => {
                     >
                       <div className="section__content ">
                         <h3>
-                          THE STEADY HOME PLAN: BENEFITS OF PROACTIVE HOME
+                          THE ABC  PLAN: BENEFITS OF PROACTIVE HOME
                           SERVICES
                         </h3>
                         <p>
@@ -218,7 +218,7 @@ const HomeMaintainence = () => {
                             upgrades, you’ll save 40% off your first two hours
                             of service. For up-to-date pricing on the Steady
                             Home Plan introductory offer in your area, contact
-                            your local HomeSteady representative&nbsp;
+                            your local ABC  representative&nbsp;
                           </span>
                           <Link to="../contact/index.html" rel="noopener">
                             here!
