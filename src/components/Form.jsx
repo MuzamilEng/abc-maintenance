@@ -336,7 +336,7 @@ const Form = () => {
                             className="gfield_label gform-field-label"
                             htmlFor="input_2_13"
                           >
-                            Zip Code
+                            Post code
                           </label>
                           <div className="ginput_container ginput_container_text">
                             <input
@@ -345,7 +345,7 @@ const Form = () => {
                               type="text"
                               defaultValue=""
                               className="large"
-                              placeholder="Zip Code"
+                              placeholder="Post Code"
                               aria-invalid="false"
                             />{" "}
                           </div>

@@ -107,7 +107,7 @@ const PaintingServices = () => {
                         alt="Handyman Paints a Wall"
                         decoding="async"
                         fetchpriority="high"
-                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/painting.jpg 1920w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/painting-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/painting-1024x683.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/painting-768x512.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/painting-1536x1024.jpg 1536w"
+                        // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/painting.jpg 1920w, https://www.ABCservices.com/wp-content/uploads/2022/08/painting-300x200.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/08/painting-1024x683.jpg 1024w, https://www.ABCservices.com/wp-content/uploads/2022/08/painting-768x512.jpg 768w, https://www.ABCservices.com/wp-content/uploads/2022/08/painting-1536x1024.jpg 1536w"
                         sizes="(max-width: 1920px) 100vw, 1920px"
                       />
                     </div>
@@ -224,7 +224,7 @@ const PaintingServices = () => {
                         className="attachment-full size-full"
                         alt="Handyman Paints a Wall"
                         decoding="async"
-                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/painting-2.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/painting-2-300x225.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/painting-2-768x576.jpg 768w"
+                        // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/painting-2.jpg 800w, https://www.ABCservices.com/wp-content/uploads/2022/08/painting-2-300x225.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/08/painting-2-768x576.jpg 768w"
                         sizes="(max-width: 800px) 100vw, 800px"
                       />
                     </div>

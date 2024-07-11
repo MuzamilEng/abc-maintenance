@@ -72,7 +72,7 @@ const Header = () => {
                         <Link to="/painting-services">
                           <p className="text-[1vw]">Home Repair Services</p>
                         </Link>
-                        <ul className="sub-menu">
+                        {/* <ul className="sub-menu">
                           <li
                             id="menu-item-1003319"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003319"
@@ -135,7 +135,7 @@ const Header = () => {
                           >
                             <Link to="#">TILE REPAIR</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
                       <li
                         id="menu-item-1003313"

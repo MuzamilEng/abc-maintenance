@@ -129,7 +129,7 @@ const MainSlider = () => {
                         alt="Family Admires Front of Their Home"
                         decoding="async"
                         fetchpriority="high"
-                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-768x513.jpg 768w"
+                        // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/home.jpg 800w, https://www.ABCservices.com/wp-content/uploads/2022/08/home-300x200.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/08/home-768x513.jpg 768w"
                         sizes="(max-width: 800px) 100vw, 800px"
                       />
                     </div>
@@ -329,7 +329,7 @@ const MainSlider = () => {
                       <div className="section__button text-left lg:mt-[1vw]">
                         <Link
                           className="btn btn-primary" // commented link to a pdf file
-                          to="#" //https://irp.cdn-website.com/9922685c/files/uploaded/Service_Sheet_8.5x14_HomeSteady_Generic.pdf
+                          to="#" //https://irp.cdn-website.com/9922685c/files/uploaded/Service_Sheet_8.5x14_ABC_Generic.pdf
                           target="_blank"
                         >
                           HOME REPAIR SERVICES
@@ -349,7 +349,7 @@ const MainSlider = () => {
                         className="attachment-full size-full"
                         alt="Home Front View"
                         decoding="async"
-                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home2-768x513.jpg 768w"
+                        // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/home2.jpg 800w, https://www.ABCservices.com/wp-content/uploads/2022/08/home2-300x200.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/08/home2-768x513.jpg 768w"
                         sizes="(max-width: 800px) 100vw, 800px"
                       />
                     </div>
@@ -380,7 +380,7 @@ const MainSlider = () => {
                         WORRY-FREE HOME SERVICES
                       </h3>
                       <p className="text-align-center lg:text-[1vw] ">
-                        HomeSteady’s annual membership-based maintenance plan
+                        ABC's annual membership-based maintenance plan
                         takes a proactive approach to caring for your home.
                         Entrust your routine maintenance to us and leave your
                         worries behind.
@@ -457,7 +457,7 @@ const MainSlider = () => {
 
                         alt="Bathroom"
                         decoding="async"
-                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom-768x512.jpg 768w"
+                        // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/bathroom.jpg 800w, https://www.ABCservices.com/wp-content/uploads/2022/08/bathroom-300x200.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/08/bathroom-768x512.jpg 768w"
                         sizes="(max-width: 800px) 100vw, 800px"
                       />
                     </div>
@@ -541,7 +541,7 @@ const MainSlider = () => {
                       >
                         Select a Location to Contact your local ABC .
                       </h3>
-                      <p style={{ textAlign: "center" }}>
+                      {/* <p style={{ textAlign: "center" }}>
                         <Link
                           className="m-font-size-14 font-size-18"
                           to="mi-jackson/index.html"
@@ -549,7 +549,7 @@ const MainSlider = () => {
                         >
                           Jackson, MI
                         </Link>
-                      </p>
+                      </p> */}
                       <p style={{ textAlign: "center" }}>
                         Or Complete Our Contact Form to Connect with your Local
                         ABC  Technicians!

@@ -74,7 +74,7 @@ const HomeMaintainence = () => {
                           alt="Man Repairing Cabinet ─ Ann Arbor, MI ─ ABC "
                           decoding="async"
                           fetchpriority="high"
-                          // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-drill.jpg 533w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-drill-200x300.jpg 200w"
+                          // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/home-drill.jpg 533w, https://www.ABCservices.com/wp-content/uploads/2022/08/home-drill-200x300.jpg 200w"
                           sizes="(max-width: 533px) 100vw, 533px"
                         />
                       </div>
@@ -95,7 +95,7 @@ const HomeMaintainence = () => {
                       <div className="section__content ">
                         <h3>WORRY-FREE HOME MAINTENANCE SERVICES</h3>
                         <p>
-                          HomeSteady’s membership plan takes a proactive
+                          ABC's membership plan takes a proactive
                           approach to maintenance and overall care for your
                           home. Through annual home evaluations, we protect your
                           most valued asset and keep your home functioning as it
@@ -122,7 +122,7 @@ const HomeMaintainence = () => {
                           className="attachment-full w-[80w] size-full max-h-[70vw] lg:max-h-[30vw]"
                           alt="Handyman Repairing Sink"
                           decoding="async"
-                          // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/sink.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/sink-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/sink-768x512.jpg 768w"
+                          // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/sink.jpg 800w, https://www.ABCservices.com/wp-content/uploads/2022/08/sink-300x200.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/08/sink-768x512.jpg 768w"
                           sizes="(max-width: 800px) 100vw, 800px"
                         />
                       </div>
@@ -169,7 +169,7 @@ const HomeMaintainence = () => {
                           className="attachment-full size-full"
                           alt="Bathroom"
                           decoding="async"
-                          // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/bathroom-768x512.jpg 768w"
+                          // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/bathroom.jpg 800w, https://www.ABCservices.com/wp-content/uploads/2022/08/bathroom-300x200.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/08/bathroom-768x512.jpg 768w"
                           sizes="(max-width: 800px) 100vw, 800px"
                         />
                       </div>
@@ -235,7 +235,7 @@ const HomeMaintainence = () => {
                           className="attachment-full size-full"
                           alt="Family Plays in front of home"
                           decoding="async"
-                          // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1.jpg 800w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/08/home-1-768x513.jpg 768w"
+                          // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/08/home-1.jpg 800w, https://www.ABCservices.com/wp-content/uploads/2022/08/home-1-300x200.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/08/home-1-768x513.jpg 768w"
                           sizes="(max-width: 800px) 100vw, 800px"
                         />
                       </div>

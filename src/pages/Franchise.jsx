@@ -91,8 +91,8 @@ const Franchise = () => {
                         <p className="text-align-left lg:text-[1vw] lg:font-medium ">
                           For more examples of our work and to see how we can
                           help with your next project, get in touch with us at{" "}
-                          {/* <Link to="mailto:abcmaintenance@gmail.com">
-                            abcmaintenance@gmail.com
+                          {/* <Link to="mailto:abchsmaintenace@gmail.com">
+                            abchsmaintenace@gmail.com
                           </Link> */}
                           . Whether you need a minor repair or a major
                           renovation, we are here to provide the expert service
@@ -138,7 +138,7 @@ const Franchise = () => {
                         Today’s homeowners are so busy juggling family and
                         careers, home maintenance often goes unmanaged. When
                         home repairs get pushed aside, minor issues can become
-                        more expensive problems. HomeSteady’s solution is the
+                        more expensive problems. ABC's solution is the
                         ABC Membership Plan.
                       </p>
                       <p className="lg:text-[1.2vw] lg:leading-[2vw]">
@@ -148,9 +148,9 @@ const Franchise = () => {
                       </p>
                       {/* <p className="lg:text-[1.2vw] lg:leading-[2vw] lg:mt-[1vw]">
                         For a monthly membership fee, ABC  Plan members
-                        receive priority access to HomeSteady’s experienced and
+                        receive priority access to ABC's experienced and
                         insured home technicians and a monthly block of service
-                        hours to be used towards HomeSteady’s core maintenance
+                        hours to be used towards ABC's core maintenance
                         and repair services. Any unused hours rollover to the
                         next month allowing homeowners the choice of monthly
                         maintenance or accruing hours to cover larger home
@@ -220,7 +220,7 @@ const Franchise = () => {
                         alt="Handyman installs cabinets"
                         decoding="async"
                         fetchpriority="high"
-                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-scaled.jpg 2560w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-300x200.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-1024x683.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-768x512.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-1536x1024.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-2048x1365.jpg 2048w"
+                        // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-scaled.jpg 2560w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-300x200.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-1024x683.jpg 1024w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-768x512.jpg 768w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-1536x1024.jpg 1536w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_BeTheBossOf-2048x1365.jpg 2048w"
                         sizes="(max-width: 2560px) 100vw, 2560px"
                       />
                     </div>
@@ -337,7 +337,7 @@ const Franchise = () => {
                         className="attachment-full size-full"
                         alt="ABC  handyman talks with client"
                         decoding="async"
-                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner.jpg 2386w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-300x212.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1024x724.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-768x543.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1536x1085.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-2048x1447.jpg 2048w"
+                        // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner.jpg 2386w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-300x212.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1024x724.jpg 1024w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-768x543.jpg 768w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-1536x1085.jpg 1536w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_YourRoleAsAnOwner-2048x1447.jpg 2048w"
                         sizes="(max-width: 2386px) 100vw, 2386px"
                       />
                     </div>
@@ -417,7 +417,7 @@ const Franchise = () => {
                         className="attachment-full size-full"
                         alt="Map of the United States"
                         decoding="async"
-                        srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/us-map.jpg 400w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/us-map-300x185.jpg 300w"
+                        srcSet="https://www.ABCservices.com/wp-content/uploads/2022/09/us-map.jpg 400w, https://www.ABCservices.com/wp-content/uploads/2022/09/us-map-300x185.jpg 300w"
                         sizes="(max-width: 400px) 100vw, 400px"
                       />
                     </div>
@@ -468,7 +468,7 @@ const Franchise = () => {
                         className="attachment-full size-full"
                         alt="ABC  Van"
                         decoding="async"
-                        // srcSet="https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-scaled.jpg 2560w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-300x185.jpg 300w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1024x632.jpg 1024w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-768x474.jpg 768w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1536x947.jpg 1536w, https://www.homesteadyservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-2048x1263.jpg 2048w"
+                        // srcSet="https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-scaled.jpg 2560w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-300x185.jpg 300w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1024x632.jpg 1024w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-768x474.jpg 768w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-1536x947.jpg 1536w, https://www.ABCservices.com/wp-content/uploads/2022/09/Franchise_LetsGetStarted-2048x1263.jpg 2048w"
                         sizes="(max-width: 2560px) 100vw, 2560px"
                       />
                     </div>

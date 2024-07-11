@@ -48,7 +48,7 @@ const Contact = () => {
                         >
                           Select a Location to Contact your local ABC .
                         </h2>
-                        <p style={{ textAlign: "center" }}>
+                        {/* <p style={{ textAlign: "center" }}>
                           <a
                             className="m-font-size-14 font-size-18"
                             href="../mi-jackson/index.html"
@@ -56,7 +56,7 @@ const Contact = () => {
                           >
                             Jackson, MI
                           </a>
-                        </p>
+                        </p> */}
                         <h2 style={{ textAlign: "center" }}>
                           Or Complete Our Contact Form to Connect with your
                           Local ABC  Technicians!
@@ -401,7 +401,7 @@ const Contact = () => {
                                       className="gfield_label gform-field-label"
                                       htmlFor="input_2_13"
                                     >
-                                      Zip Code
+                                      Post Code
                                     </label>
                                     <div className="ginput_container ginput_container_text">
                                       <input
@@ -410,7 +410,7 @@ const Contact = () => {
                                         type="text"
                                         defaultValue=""
                                         className="large"
-                                        placeholder="Zip Code"
+                                        placeholder="Post Code"
                                         aria-invalid="false"
                                       />{" "}
                                     </div>
