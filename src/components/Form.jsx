@@ -15,8 +15,7 @@ const Form = () => {
                   data-form-index={0}
                   id="gform_wrapper_2"
                 >
-                  <form                   
-                  >
+                  <form>
                     <div className="gform-body gform_body">
                       <div
                         id="gform_fields_2"
@@ -246,7 +245,7 @@ const Form = () => {
                             />{" "}
                           </div>
                         </div>
-                        <div
+                        {/* <div
                           id="field_2_30"
                           className="gfield gfield--type-select gfield--width-third field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
                           data-js-reload="field_2_30"
@@ -327,7 +326,7 @@ const Form = () => {
                               <option value="WY">WY</option>
                             </select>
                           </div>
-                        </div>
+                        </div> */}
                         <div
                           id="field_2_13"
                           className="gfield gfield--type-text gfield--width-third field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
@@ -519,7 +518,7 @@ const Form = () => {
                           data-js-reload="field_2_17"
                         >
                           <legend className="gfield_label gform-field-label">
-                            Are you interested in our ABC  Plan?
+                            Are you interested in our ABC Plan?
                           </legend>
                           <div className="ginput_container ginput_container_radio">
                             <div className="gfield_radio" id="input_2_17">
@@ -578,7 +577,7 @@ const Form = () => {
                             className="gfield_label gform-field-label"
                             htmlFor="input_2_18"
                           >
-                            How can ABC  help you?
+                            How can ABC help you?
                           </label>
                           <div className="ginput_container ginput_container_textarea">
                             <textarea
@@ -743,9 +742,11 @@ const Form = () => {
                       </div>
                     </div>
                     <Link to="/">
-                    <button className=" mt-[2vw] button btn btn-primary">Submit</button>
-                    </Link>  
-                    </form>
+                      <button className=" mt-[2vw] button btn btn-primary">
+                        Submit
+                      </button>
+                    </Link>
+                  </form>
                 </div>
               </div>
             </div>

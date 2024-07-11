@@ -29,7 +29,7 @@ const HomeMaintainence = () => {
                       className="section__container"
                     >
                       <div className="section__content ">
-                        <h1>SIGN UP FOR A ABC  MAINTENANCE PLAN</h1>
+                        <h1>SIGN UP FOR A ABC MAINTENANCE PLAN</h1>
                         <h2>
                           Keep Your Home in Top Shape with Annual Inspections
                           and Discounts on Repairs
@@ -50,16 +50,15 @@ const HomeMaintainence = () => {
                       className="section__container"
                     >
                       <div className="section__content ">
-                        <h3>HOW IS THE ABC  PLAN DIFFERENT?</h3>
+                        <h3>HOW IS THE ABC PLAN DIFFERENT?</h3>
                         <p>
                           Today’s homeowners are so busy juggling family and
-                          careers, home maintenance often goes unmanaged.
-                          ABC  provides a dependable approach to home
-                          maintenance with the benefits of its membership
-                          program. Our home protection plan provides a
-                          trustworthy solution that gives you peace of mind when
-                          it comes to knowing what needs to be fixed around your
-                          home.
+                          careers, home maintenance often goes unmanaged. ABC
+                          provides a dependable approach to home maintenance
+                          with the benefits of its membership program. Our home
+                          protection plan provides a trustworthy solution that
+                          gives you peace of mind when it comes to knowing what
+                          needs to be fixed around your home.
                         </p>
                       </div>
                     </div>
@@ -103,9 +102,7 @@ const HomeMaintainence = () => {
                           should. Entrust your routine maintenance to us and
                           leave your worries behind.
                         </p>
-                        <h3>
-                          WHY CHOOSE ABC  FOR HOME MAINTENANCE PLAN?
-                        </h3>
+                        <h3>WHY CHOOSE ABC FOR HOME MAINTENANCE PLAN?</h3>
                         <ul className="defaultList">
                           <li>Dependable and Hassle-Free Home Maintenance</li>
                           <li>Transparent Pricing</li>
@@ -134,8 +131,8 @@ const HomeMaintainence = () => {
                 </div>
               </div>
             </section>
-            <div className="top-triangle" />
-            <section className="content_2 section__wrapper img-max-height blue-bg triangle-above">
+            {/* <div className="top-triangle" /> */}
+            {/* <section className="content_2 section__wrapper img-max-height blue-bg triangle-above">
               <div className="container">
                 <div className="row ">
                   <div className="col-md-6 mt-5 mt-md-0">
@@ -180,9 +177,9 @@ const HomeMaintainence = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
             <section
-              className="feature_2 section__wrapper blue-bg triangle-below"
+              className="feature_2 section__wrapper"
               id="membership-tiers"
             >
               <div className="container">
@@ -196,7 +193,7 @@ const HomeMaintainence = () => {
                 </div>
               </div>
             </section>
-            <div className="bottom-triangle" />
+            {/* <div className="bottom-triangle" /> */}
             <section className="content_2 section__wrapper img-max-height reverse-mobile">
               <div className="container">
                 <div className="row flex-row-reverse">
@@ -218,7 +215,7 @@ const HomeMaintainence = () => {
                             upgrades, you’ll save 40% off your first two hours
                             of service. For up-to-date pricing on the Steady
                             Home Plan introductory offer in your area, contact
-                            your local ABC  representative&nbsp;
+                            your local ABC representative&nbsp;
                           </span>
                           <Link to="../contact/index.html" rel="noopener">
                             here!
