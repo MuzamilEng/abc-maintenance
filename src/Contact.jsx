@@ -2,19 +2,16 @@ import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { Link } from "react-router-dom";
-
+import ContactForm from "./components/ContactForm";
 const Contact = () => {
   return (
     <>
       <>
-       <Header />
+        <Header />
         {/* .header */}
         <div id="content" className="main-content" role="main">
           <div className="wrap">
-            <section
-              className="content_1 section__wrapper "
-              id="contact-anner"
-            >
+            <section className="content_1 section__wrapper " id="contact-anner">
               <div className="container">
                 <div className="row ">
                   <div className="col-md-12">
@@ -59,7 +56,7 @@ const Contact = () => {
                         </p> */}
                         <h2 style={{ textAlign: "center" }}>
                           Or Complete Our Contact Form to Connect with your
-                          Local ABC  Technicians!
+                          Local ABC Technicians!
                         </h2>
                       </div>
                     </div>
@@ -76,8 +73,9 @@ const Contact = () => {
                             data-form-index={0}
                             id="gform_wrapper_2"
                           >
-                            <form
-                             
+                            {/* <form
+                              action="https://formspree.io/f/mrbzbewa"
+                              method="POST"
                             >
                               <div className="gform-body gform_body">
                                 <div
@@ -552,8 +550,7 @@ const Contact = () => {
                                     data-js-reload="field_2_16"
                                   >
                                     <legend className="gfield_label gform-field-label">
-                                      Is this your first experience with
-                                      ABC ?
+                                      Is this your first experience with ABC ?
                                     </legend>
                                     <div className="ginput_container ginput_container_radio">
                                       <div
@@ -603,8 +600,7 @@ const Contact = () => {
                                     data-js-reload="field_2_17"
                                   >
                                     <legend className="gfield_label gform-field-label">
-                                      Are you interested in our ABC 
-                                      Plan?
+                                      Are you interested in our ABC Plan?
                                     </legend>
                                     <div className="ginput_container ginput_container_radio">
                                       <div
@@ -666,7 +662,7 @@ const Contact = () => {
                                       className="gfield_label gform-field-label"
                                       htmlFor="input_2_18"
                                     >
-                                      How can ABC  help you?
+                                      How can ABC help you?
                                     </label>
                                     <div className="ginput_container ginput_container_textarea">
                                       <textarea
@@ -831,9 +827,12 @@ const Contact = () => {
                                 </div>
                               </div>
                               <Link to="/">
-                              <button className=" mt-[2vw] button btn btn-primary">Submit</button>
+                                <button className=" mt-[2vw] button btn btn-primary">
+                                  Submit
+                                </button>
                               </Link>
-                            </form>
+                            </form> */}
+                            <ContactForm />
                           </div>
                         </div>
                       </div>
@@ -846,29 +845,8 @@ const Contact = () => {
           {/* .wrap */}
         </div>
         {/* .site-content */}
-       <Footer />
+        <Footer />
         {/* .site-footer */}
-        <link
-          rel="stylesheet"
-          id="gform_basic-css"
-          href="../wp-content/plugins/gravityforms/assets/css/dist/basic.min1f6a.css?ver=2.8.12"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="dashicons-css"
-          href="../wp-includes/css/dashicons.min380f.css?ver=6.5.4"
-          type="text/css"
-          media="all"
-        />
-        <link
-          rel="stylesheet"
-          id="assets_css-css"
-          href="../wp-content/themes/cybermark/assets/css/assets380f.css?ver=6.5.4"
-          type="text/css"
-          media="all"
-        />
       </>
     </>
   );
