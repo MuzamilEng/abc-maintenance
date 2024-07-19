@@ -1,7 +1,8 @@
 import React from "react";
 import { reportDataForm } from "../assets/data";
 import { Controller, useForm } from "react-hook-form";
-import emailjs from "emailjs-com";
+import { useMutation } from "@tanstack/react-query";
+import axios from "axios";
 const ContactForm = () => {
   const {
     handleSubmit,
@@ -26,25 +27,27 @@ const ContactForm = () => {
       projectDetails: "",
     },
   });
-
+  const apiUrl = import.meta.env.VITE_API_URL;
+  const mutation = useMutation({
+    mutationFn: async (data) => {
+      const resp = await axios.post(`${apiUrl}/send-mail`, data);
+      return resp;
+    },
+    onSuccess: () => {
+      alert("Form submitted successfully!");
+    },
+    onError: () => {
+      alert("Form submission failed!");
+    },
+  });
   const handleInputChange = (e) => {
     setValue(e.target.name, e.target.value);
   };
 
   const onSubmit = (data) => {
-    emailjs
-      .send("service_qyq7spj", "template_9am60qk", data, "8MEJNThVpecvJtrCU")
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("Form submitted successfully!");
-          reset();
-        },
-        (error) => {
-          console.log(error.text);
-          alert("An error occurred. Please try again.");
-        }
-      );
+    // console.log(data);
+    mutation.mutate(data);
+    reset();
   };
 
   return (
@@ -53,6 +56,7 @@ const ContactForm = () => {
       <div className="gform-body gform_body">
         {reportDataForm?.map((item, index) => (
           <div
+            key={index}
             id="field_2_1"
             className="gfield gfield--type-text gfield--width-half field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"
             data-js-reload="field_2_1"
@@ -125,7 +129,7 @@ const ContactForm = () => {
                       name="input_18"
                       id="input_2_18"
                       className="textarea small p-[0.2vw]"
-                      placeholder="How can ABC  help you?"
+                      placeholder="How can ABC help you?"
                       aria-invalid="false"
                       rows={5}
                       cols={5}
@@ -204,7 +208,7 @@ const ContactForm = () => {
       </div>
       <h2>2. Service Type</h2>
       <div className="border-[1px] p-[1vw] ">
-        <p>Is this your first experience with ABC ?</p>
+        <p>Is this your first experience with ABC?</p>
 
         <input type="radio" value="YES" name="service type" id="" />
         <label htmlFor="">YES</label>
@@ -220,7 +224,9 @@ const ContactForm = () => {
         <label htmlFor="">NO at this time</label>
       </div>
       <div className="">
-        <button className=" mt-[2vw] button btn btn-primary">Submit</button>
+        <button className=" mt-[2vw] button btn btn-primary">
+          {mutation.isPending ? "Sending..." : "Submit"}
+        </button>
       </div>
     </form>
   );
