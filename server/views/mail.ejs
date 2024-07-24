@@ -89,7 +89,7 @@
             <td><%= hearAboutUs %></td>
         </tr>
         <tr>
-            <td>  Phone Number</td>
+            <td>Phone Number</td>
             <td><%= phoneNumber %></td>
         </tr>
         <tr>
@@ -100,8 +100,21 @@
             <td>State</td>
             <td><%= state %></td>
         </tr>
-      
-       
+
+        <% if (uploadedImages && uploadedImages.length > 0) { %>
+            <tr>
+                <th colspan="2">Images</th>
+            </tr>
+            <% uploadedImages.forEach(image => { %>
+                <tr>
+                    <td colspan="2">
+                        <a href="<%= image %>" target="_blank">
+                            <img src="<%= image %>" alt="Uploaded Image">
+                        </a>
+                    </td>
+                </tr>
+            <% }); %>
+        <% } %>
     </table>
 </body>
 </html>

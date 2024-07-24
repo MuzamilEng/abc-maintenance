@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { reportDataForm } from "../assets/data";
 import { Controller, useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
+
 const ContactForm = () => {
+  const [selectedFiles, setSelectedFiles] = useState([]);
+
   const {
     handleSubmit,
     control,
@@ -27,26 +30,43 @@ const ContactForm = () => {
       projectDetails: "",
     },
   });
+
   const apiUrl = import.meta.env.VITE_API_URL;
   const mutation = useMutation({
-    mutationFn: async (data) => {
-      const resp = await axios.post(`${apiUrl}/send-mail`, data);
+    mutationFn: async (formData) => {
+      const resp = await axios.post(`${apiUrl}/send-mail`, formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
       return resp;
     },
-    onSuccess: () => {
+    onSuccess: (data) => {
       alert("Form submitted successfully!");
     },
-    onError: () => {
+    onError: (error) => {
       alert("Form submission failed!");
     },
   });
-  const handleInputChange = (e) => {
-    setValue(e.target.name, e.target.value);
+
+  const handleFileChange = (e) => {
+    setSelectedFiles((prev) => [...prev, e.target.files]);
   };
 
   const onSubmit = (data) => {
-    // console.log(data);
-    mutation.mutate(data);
+    const formData = new FormData();
+
+    // Append text fields to FormData
+    for (const key in data) {
+      formData.append(key, data[key]);
+    }
+
+    // Append selected files to FormData
+    selectedFiles.forEach((file) => {
+      formData.append("images", file);
+    });
+    // console.log(selectedFiles);
+    mutation.mutate(formData);
     reset();
   };
 
@@ -76,8 +96,6 @@ const ContactForm = () => {
                     <input
                       {...field}
                       id="input_2_1"
-                      onChange={handleInputChange}
-                      value={field.value}
                       className="large"
                       type={item?.type}
                       placeholder={item?.placeholder}
@@ -99,7 +117,6 @@ const ContactForm = () => {
                       className="large gfield_select"
                       aria-invalid="false"
                       {...field}
-                      onChange={handleInputChange}
                     >
                       <option className="text-vw" value="">
                         Select the option
@@ -146,7 +163,6 @@ const ContactForm = () => {
                 render={({ field }) => (
                   <input
                     {...field}
-                    onChange={handleInputChange}
                     className="text-vw md:p-0.5vw p-[1.5vw] border-[1px] focus:outline-none w-full focus:shadow-md max-w-[30vw] rounded-md spin-button-none"
                     type={item?.type}
                     placeholder={item?.placeholder}
@@ -159,10 +175,7 @@ const ContactForm = () => {
                 control={control}
                 rules={item?.rules}
                 render={({ field }) => (
-                  <div
-                    className="ginput_container ginput_container_radio"
-                    onChange={handleInputChange}
-                  >
+                  <div className="ginput_container ginput_container_radio">
                     {item?.options?.map((option, index) => (
                       <label key={index} className="mr-4">
                         <div className="gfield_radio" id="input_2_15">
@@ -196,32 +209,68 @@ const ContactForm = () => {
       <div className="border-[1px] p-[1vw] ">
         <p>Would you like to receive occasional tips and offers via email?</p>
 
-        <input
-          type="radio"
-          value="YES! SIGN ME UP"
-          name="YES! SIGN ME UP"
-          id=""
+        <Controller
+          name="emailOptIn"
+          control={control}
+          render={({ field }) => (
+            <>
+              <input type="radio" value="YES! SIGN ME UP" id="yes" {...field} />
+              <label htmlFor="yes">YES! SIGN ME UP</label>
+              <input type="radio" value="NO THANKS" id="no" {...field} />
+              <label htmlFor="no">NO THANKS</label>
+            </>
+          )}
         />
-        <label htmlFor="">YES! SIGN ME UP</label>
-        <input type="radio" value="NO THANKS" name="NO THANKS" id="" />
-        <label htmlFor="">YES! SIGN ME UP</label>
       </div>
       <h2>2. Service Type</h2>
       <div className="border-[1px] p-[1vw] ">
         <p>Is this your first experience with ABC?</p>
 
-        <input type="radio" value="YES" name="service type" id="" />
-        <label htmlFor="">YES</label>
-        <input type="radio" value="NO" name="NO" id="" />
-        <label htmlFor="">NO</label>
+        <Controller
+          name="firstExperience"
+          control={control}
+          render={({ field }) => (
+            <>
+              <input type="radio" value="YES" id="firstYes" {...field} />
+              <label htmlFor="firstYes">YES</label>
+              <input type="radio" value="NO" id="firstNo" {...field} />
+              <label htmlFor="firstNo">NO</label>
+            </>
+          )}
+        />
       </div>
       <div className="border-[1px] p-[1vw] ">
         <p>Are you interested in our ABC Plan?</p>
 
-        <input type="radio" value="YES" name="YES" id="" />
-        <label htmlFor="">YES</label>
-        <input type="radio" value="NO at this time" name="service type" id="" />
-        <label htmlFor="">NO at this time</label>
+        <Controller
+          name="abcPlan"
+          control={control}
+          render={({ field }) => (
+            <>
+              <input type="radio" value="YES" id="abcYes" {...field} />
+              <label htmlFor="abcYes">YES</label>
+              <input
+                type="radio"
+                value="NO at this time"
+                id="abcNo"
+                {...field}
+              />
+              <label htmlFor="abcNo">NO at this time</label>
+            </>
+          )}
+        />
+      </div>
+      <div className="mt-[2vw] flex justify-center ">
+        {[1, 2, 3].map((elem, ind) => (
+          <div key={ind} className=" w-full max-w-[20vw] ml-[4vw]">
+            <input
+              type="file"
+              name="files"
+              multiple
+              onChange={handleFileChange}
+            />
+          </div>
+        ))}
       </div>
       <div className="">
         <button className=" mt-[2vw] button btn btn-primary">
