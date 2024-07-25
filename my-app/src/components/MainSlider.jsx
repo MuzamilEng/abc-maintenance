@@ -541,15 +541,6 @@ const MainSlider = () => {
                       >
                         Select a Location to Contact your local ABC .
                       </h3>
-                      {/* <p style={{ textAlign: "center" }}>
-                        <Link
-                          className="m-font-size-14 font-size-18"
-                          to="mi-jackson/index.html"
-                          type="page"
-                        >
-                          Jackson, MI
-                        </Link>
-                      </p> */}
                       <p style={{ textAlign: "center" }}>
                         Or Complete Our Contact Form to Connect with your Local
                         ABC  Technicians!

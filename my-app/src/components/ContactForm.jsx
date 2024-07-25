@@ -31,7 +31,7 @@ const ContactForm = () => {
     },
   });
 
-  const apiUrl = import.meta.env.VITE_API_URL;
+  const apiUrl = import.meta.env.VITE_API_URL || "https://api.danhamz.co.uk/api/v1"
   const mutation = useMutation({
     mutationFn: async (formData) => {
       const resp = await axios.post(`${apiUrl}/maintenance`, formData, {
@@ -55,13 +55,14 @@ const ContactForm = () => {
 
   const onSubmit = (data) => {
     const formData = new FormData();
+    console.log('====================================');
+    console.log(data, "onSubmit");
+    console.log('====================================');
 
     // Append text fields to FormData
     for (const key in data) {
       formData.append(key, data[key]);
     }
-
-    // Append selected files to FormData
     selectedFiles.forEach((file) => {
       formData.append("images", file);
     });

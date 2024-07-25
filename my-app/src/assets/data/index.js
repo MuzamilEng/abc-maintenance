@@ -97,14 +97,9 @@ export const reportDataForm = [
   },
   {
     name: "state",
-    type: "select",
+    type: "text",
     label: "State",
-
-    options: [
-      { value: "state", label: "State" },
-      { value: "al", label: "AL" },
-      { value: "al", label: "AL" },
-    ],
+    placeholder: "State",
     rules: {
       required: "phone type is required",
     },
@@ -118,23 +113,23 @@ export const reportDataForm = [
       required: "post code is required",
     },
   },
-  {
-    name: "hearAboutUs",
-    type: "select",
-    label: "How did you hear about us?",
+  // {
+  //   name: "hearAboutUs",
+  //   type: "select",
+  //   label: "How did you hear about us?",
 
-    options: [
-      {
-        value: "How did you hear about us?",
-        label: "How did you hear about us?",
-      },
-      { value: "door hangger yard sign", label: "Door hangger/yard sign" },
-      { value: "angies list", label: "Angies Lists" },
-    ],
-    rules: {
-      required: "phone type is required",
-    },
-  },
+  //   options: [
+  //     {
+  //       value: "How did you hear about us?",
+  //       label: "How did you hear about us?",
+  //     },
+  //     { value: "door hangger yard sign", label: "Door hangger/yard sign" },
+  //     { value: "angies list", label: "Angies Lists" },
+  //   ],
+  //   rules: {
+  //     required: "phone type is required",
+  //   },
+  // },
 
   {
     name: "projectDetail",
