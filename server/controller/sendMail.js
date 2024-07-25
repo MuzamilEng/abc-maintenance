@@ -5,14 +5,23 @@ const ejs = require("ejs");
 const uploadOnCloudinary = require("../libs/cloudinary");
 const fs = require("fs").promises; // Use fs.promises for async file operations
 
+// const transporter = nodemailer.createTransport({
+//   service: "gmail",
+//   secure: true,
+//   port: 465,
+//   // You need to generate a unique password from your Google Account settings
+//   auth: {
+//     user: "afrazrajpoot46@gmail.com",
+//     pass: "lpvlezhljdwookuk",
+//   },
+// });
 const transporter = nodemailer.createTransport({
-  service: "gmail",
-  secure: true,
-  port: 465,
-  // You need to generate a unique password from your Google Account settings
+  host: "smtp.hostinger.com",
+  port: "465", // usually 587 for TLS or 465 for SSL
+  secure: true, // true for 465, false for other ports
   auth: {
-    user: "afrazrajpoot46@gmail.com",
-    pass: "amkduptbktuqydew",
+    user: "lettings@danhamz.co.uk", // your Hostinger email address
+    pass: "Muzamil1234+", // your Hostinger email password
   },
 });
 
@@ -37,7 +46,8 @@ const sendFault = async (req, res) => {
   try {
     // Upload images to Cloudinary
     const files = req.files;
-    // console.log(files, "file");
+
+    console.log(files, "file");
     const uploadedImages = await Promise.all(
       files.map(async (file) => {
         try {
@@ -71,7 +81,7 @@ const sendFault = async (req, res) => {
 
     const mailOptions = {
       from: "danhamz.co.uk", // sender email address
-      to: email, // your office email address
+      to: "lettings@danhamz.co.uk", // your office email address
       subject: `Maintenance report request from ${email}`,
       html: renderedHtml,
     };

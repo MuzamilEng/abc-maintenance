@@ -31,10 +31,11 @@ const ContactForm = () => {
     },
   });
 
-  const apiUrl = import.meta.env.VITE_API_URL || "https://api.danhamz.co.uk/api/v1"
+  const apiUrl =
+    import.meta.env.VITE_API_URL || "https://api.danhamz.co.uk/api/v1";
   const mutation = useMutation({
     mutationFn: async (formData) => {
-      const resp = await axios.post(`${apiUrl}/maintenance`, formData, {
+      const resp = await axios.post(`${apiUrl}/send-mail`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -50,14 +51,14 @@ const ContactForm = () => {
   });
 
   const handleFileChange = (e) => {
-    setSelectedFiles((prev) => [...prev, e.target.files]);
+    setSelectedFiles((prev) => [...prev, ...e.target.files]);
   };
-
+  // console.log(selectedFiles, "myfiles");
   const onSubmit = (data) => {
     const formData = new FormData();
-    console.log('====================================');
+    console.log("====================================");
     console.log(data, "onSubmit");
-    console.log('====================================');
+    console.log("====================================");
 
     // Append text fields to FormData
     for (const key in data) {
@@ -66,7 +67,7 @@ const ContactForm = () => {
     selectedFiles.forEach((file) => {
       formData.append("images", file);
     });
-    console.log(selectedFiles);
+    console.log(selectedFiles, "myFiles");
     mutation.mutate(formData);
     reset();
   };
