@@ -34,7 +34,7 @@ const ContactForm = () => {
   const apiUrl = import.meta.env.VITE_API_URL;
   const mutation = useMutation({
     mutationFn: async (formData) => {
-      const resp = await axios.post(`${apiUrl}/send-mail`, formData, {
+      const resp = await axios.post(`${apiUrl}/maintenance`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -65,7 +65,7 @@ const ContactForm = () => {
     selectedFiles.forEach((file) => {
       formData.append("images", file);
     });
-    // console.log(selectedFiles);
+    console.log(selectedFiles);
     mutation.mutate(formData);
     reset();
   };
@@ -273,7 +273,7 @@ const ContactForm = () => {
         ))}
       </div>
       <div className="">
-        <button className=" mt-[2vw] button btn btn-primary">
+        <button type="submit" className=" mt-[2vw] button btn btn-primary">
           {mutation.isPending ? "Sending..." : "Submit"}
         </button>
       </div>
