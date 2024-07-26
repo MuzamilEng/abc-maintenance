@@ -3,6 +3,8 @@ import { reportDataForm } from "../assets/data";
 import { Controller, useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
+import toast, { Toaster } from 'react-hot-toast';
+
 
 const ContactForm = () => {
   const [selectedFiles, setSelectedFiles] = useState([]);
@@ -31,8 +33,7 @@ const ContactForm = () => {
     },
   });
 
-  const apiUrl =
-     "https://api.danhamz.co.uk/api/v1";
+  const apiUrl = "https://api.danhamz.co.uk/api/v1";
   const mutation = useMutation({
     mutationFn: async (formData) => {
       const resp = await axios.post(`${apiUrl}/maintenance`, formData, {
@@ -43,22 +44,20 @@ const ContactForm = () => {
       return resp;
     },
     onSuccess: (data) => {
-      alert("Form submitted successfully!");
+      toast.success("Form submitted successfully!");
+      reset(); // Reset the form fields after successful submission
     },
     onError: (error) => {
-      alert("Form submission failed!");
+      toast.error("Form submission failed!");
     },
   });
 
   const handleFileChange = (e) => {
     setSelectedFiles((prev) => [...prev, ...e.target.files]);
   };
-  // console.log(selectedFiles, "myfiles");
+
   const onSubmit = (data) => {
     const formData = new FormData();
-    console.log("====================================");
-    console.log(data, "onSubmit");
-    console.log("====================================");
 
     // Append text fields to FormData
     for (const key in data) {
@@ -67,13 +66,12 @@ const ContactForm = () => {
     selectedFiles.forEach((file) => {
       formData.append("images", file);
     });
-    console.log(selectedFiles, "myFiles");
     mutation.mutate(formData);
-    reset();
   };
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
+            <Toaster />
       <div className="form-section-titles">1. Tell us about you</div>
       <div className="gform-body gform_body">
         {reportDataForm?.map((item, index) => (
