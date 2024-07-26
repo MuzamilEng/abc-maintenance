@@ -32,10 +32,10 @@ const ContactForm = () => {
   });
 
   const apiUrl =
-    import.meta.env.VITE_API_URL || "https://api.danhamz.co.uk/api/v1";
+     "https://api.danhamz.co.uk/api/v1";
   const mutation = useMutation({
     mutationFn: async (formData) => {
-      const resp = await axios.post(`${apiUrl}/send-mail`, formData, {
+      const resp = await axios.post(`${apiUrl}/maintenance`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
