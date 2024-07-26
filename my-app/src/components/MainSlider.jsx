@@ -549,7 +549,7 @@ const MainSlider = () => {
                   </div>
                 </div>
               </div>
-              {/* <ContactForm /> */}
+              <ContactForm />
             </div>
           </section>
         </div>
