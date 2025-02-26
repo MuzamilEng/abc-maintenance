@@ -44,6 +44,10 @@ const MainSlider = () => {
       description: "Refresh your space with our professional painting and decorating services."
     },
     {
+      title: "Residential and commercial fire safety",
+      description: "Fire alarm testing and installation,  smoke detectors and heat detectors service and maintenance"
+    },
+    {
       title: "Energy Performance, Electrical Safety & Gas Safety Certificates:",
       description: "Ensure your property meets all safety regulations with our certification services."
     }
