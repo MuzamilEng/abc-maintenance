@@ -19,6 +19,12 @@ const MainSlider = () => {
       title: "All Around Property Maintenance:",
       description: "From minor repairs to major overhauls, we handle all aspects of property maintenance."
     },
+//     CCTV installation
+// Installation of CCTV for residential and commercial
+{
+  title: "CCTV installation:",
+  description: "Installation of CCTV for residential and commercial"
+},
     {
       title: "Carpets & Vinyl:",
       description: "Choose from a wide range of carpets and vinyl flooring options, professionally installed to perfection."
@@ -50,7 +56,7 @@ const MainSlider = () => {
 
     {
       title: "Automatic ventilation testing and repairs",
-      description: "Routine maintenance and testing of commercial ventilation system "
+      description: "Routine maintenance and testing of commercial ventilation systems "
     },
 
     {
