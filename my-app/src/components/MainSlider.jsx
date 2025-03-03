@@ -47,6 +47,12 @@ const MainSlider = () => {
       title: "Residential and commercial fire safety",
       description: "Fire alarm testing and installation,  smoke detectors and heat detectors service and maintenance"
     },
+
+    {
+      title: "Automatic ventilation testing and repairs",
+      description: "Routine maintenance and testing of commercial ventilation system "
+    },
+
     {
       title: "Energy Performance, Electrical Safety & Gas Safety Certificates:",
       description: "Ensure your property meets all safety regulations with our certification services."
